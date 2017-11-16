@@ -271,7 +271,7 @@
                       </div>
     </div>
                             </div>  
-                                     <div class="tab-pane active" id="2a">
+                                     <div class="tab-pane" id="2a">
                   <h6 style="color:deepskyblue">select favourite journey list</h6>
                   <form>
                       <div class="row">
@@ -415,7 +415,12 @@
     </thead>
     <tbody>
       <tr>
-          <td>18646</td>
+          <td data-toggle="modal" data-target="#myModal"><a href="#">18646</a>
+              <!-- Modal -->
+  
+  
+              
+          </td>
         <td>EAST COAST EXP.</td>
         <td>HYB</td>
         <td>09:50</td>
@@ -433,7 +438,7 @@
           <td style="color:rgb(11,104,184)">2A 3A SL</td>
         </tr>
       <tr>
-         <td>12704</td>
+         <td><a href="#">12704</a></td>
         <td>FALAKNUMA EXP.</td>
         <td>SC</td>
         <td>15:50</td>
@@ -494,5 +499,71 @@
             
         </div>
     </footer>
+    
+    
+    
+    
+    
+    
+    <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Train schedule</h4>
+        
+        <div class="modal-body">
+            <table class="table table-bordered">
+    <thead>
+      <tr class="info table-heading">
+        <th>Train number</th>
+        <th>Train name</th>
+        <th>From station</th>
+          <th>Destination station</th>
+          <th colspan="7">Runs from source on</th>
+        </tr>
+        </thead>
+        <tbody><tr>
+            <td>12703</td>
+            <td>FALAKNUMA EXPRESS </td>
+            <td>SECUNDERABAD JN</td>
+            <td>HOWRAH JN</td>
+            <td>M</td>
+            <td>T</td>
+             <td>W</td>
+             <td>Th</td>
+             <td>F</td>
+             <td>Sa</td>
+             <td>Su</td>
+            </tr>
+                </tbody>
+                
+            </table>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     </body>
 </html>
